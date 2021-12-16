@@ -6,7 +6,7 @@ const Welcome = props => {
   return (
     <div>
       <h2>Welcome to our {name} page:</h2>
-      <img src={img} alt={name} />
+      <img style={{ width: '100%' }} src={img} alt={name} />
     </div>
   );
 };

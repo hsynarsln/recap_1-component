@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <h1>Header</h1>
       <Welcome name='Header' img={headerImg} />
-      <Button name='Header' click={handleClick} />
+      <Button name='Header' click={handleClick} color='#fff' bgColor='black' />
     </div>
   );
 };

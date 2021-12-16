@@ -12,7 +12,7 @@ const About = () => {
     <div>
       <h1>About</h1>
       <Welcome name='About' img={aboutImg} />
-      <Button name='About' click={handleClick} />
+      <Button name='About' click={handleClick} color='#fff' bgColor='red' />
     </div>
   );
 };
